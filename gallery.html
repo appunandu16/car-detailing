@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | WaxWorks</title>
+    <meta name="description" content="View our portfolio of premium car detailing, paint correction, ceramic coatings, and PPF installations.">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-shield-halved"></i>
+                Wax<span>Works</span>
+            </a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="booking.html" class="btn btn-primary" style="color: var(--bg-dark);">Book Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="section hero" style="min-height: 40vh; height: 40vh; background: url('https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=1920') center/cover;">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center reveal">
+            <h1 style="font-size: 3rem; margin-top: 80px;">Our <span>Gallery</span></h1>
+            <p>A showcase of absolute perfection.</p>
+        </div>
+    </section>
+
+    <!-- Before / After Sliders Section -->
+    <section class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title reveal">Transformations</h2>
+            <p class="section-subtitle reveal">Slide to see the dramatic difference</p>
+            
+            <div class="ba-slider reveal">
+                <!-- After Image (Background) -->
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1200" alt="After Paint Correction" loading="lazy">
+                
+                <!-- Before Image (Overlay Masked) -->
+                <div class="ba-before">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=1200" alt="Before Paint Correction" loading="lazy">
+                </div>
+                
+                <!-- Slider Input -->
+                <input type="range" min="0" max="100" value="50" aria-label="Before/After Slider">
+                <div class="slider-handle"></div>
+                
+                <div class="ba-label" style="top:20px; left:20px; z-index: 10;">Before</div>
+                <div class="ba-label" style="top:20px; right:20px; left:auto; background: var(--accent-gold); color: var(--bg-dark); z-index: 10;">After</div>
+            </div>
+            
+            <div class="ba-slider reveal">
+                <!-- After Image (Background) -->
+                <img src="https://images.unsplash.com/photo-1627889397940-27a3c3328e3b?auto=format&fit=crop&q=80&w=1200" alt="After Coating" loading="lazy">
+                
+                <!-- Before Image (Overlay Masked) -->
+                <div class="ba-before">
+                    <img src="https://images.unsplash.com/photo-1510903328228-56eb0b42fbb1?auto=format&fit=crop&q=80&w=1200" alt="Before Coating" loading="lazy">
+                </div>
+                
+                <!-- Slider Input -->
+                <input type="range" min="0" max="100" value="50" aria-label="Before/After Slider">
+                <div class="slider-handle"></div>
+                
+                 <div class="ba-label" style="top:20px; left:20px; z-index: 10;">Before</div>
+                <div class="ba-label" style="top:20px; right:20px; left:auto; background: var(--accent-gold); color: var(--bg-dark); z-index: 10;">After</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Grid Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Studio Work</h2>
+            <p class="section-subtitle reveal">Click on any image to enlarge</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=600" alt="Porsche GT3 Details" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=600" alt="Lamborghini Wash" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&q=80&w=600" alt="Ferrari Shine" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1627889397940-27a3c3328e3b?auto=format&fit=crop&q=80&w=600" alt="Ceramic Coating Pearl White" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=600" alt="Water Beading on Paint" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600" alt="Interior Details" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600" alt="Black SUV Mirror Finish" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600" alt="Metallic Blue Reflection" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="text-center reveal" style="margin-top: 50px;">
+                <a href="https://instagram.com" target="_blank" class="btn btn-outline" style="font-family: var(--font-body);"><i class="fa-brands fa-instagram"></i> Follow us on Instagram for daily updates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/919742228860" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 20px; font-size: 1.2rem;">
+                        <i class="fa-solid fa-shield-halved"></i> Wax<span>Works</span>
+                    </a>
+                    <p>Delivering absolute perfection and durable protection for the world's finest vehicles.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="services.html">All Services</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About Us</a>
+                    <a href="booking.html">Book Appointment</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> 24, 1st cross, 80feet road, Chandra Layout Main Rd, Bengaluru 560072</p>
+                    <p><i class="fa-solid fa-phone"></i> 097422 28860</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@waxworks.in</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Business Hours</h4>
+                    <p>Mon - Sun: 9:30 AM - 8:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WaxWorks. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
